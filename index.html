@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Pandey | Student Portfolio</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #020617, #1e3a8a);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #c7d2fe;
+    }
+    nav {
+      background: white;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #e5e7eb;
+      z-index: 10;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      list-style: none;
+      padding: 0.8rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 600;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 4rem 1rem;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+    .about p {
+      color: var(--gray);
+      max-width: 800px;
+    }
+    .education {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .edu-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+    }
+    .edu-card span {
+      font-size: 0.9rem;
+      color: var(--gray);
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .skill {
+      background: white;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #020617;
+      color: #cbd5f5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Replace profile.jpg with your photo file -->
+  <img src="profile.jpg" alt="Profile Photo" />
+  <h1>Ayush Pandey</h1>
+  <p>Class 12th Appearing Student | Aspiring Professional</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
+</nav>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a dedicated and motivated student currently appearing for Class 12.
+    I am passionate about learning, improving my technical knowledge, and preparing
+    myself for future academic and professional opportunities.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="education">
+    <div class="edu-card">
+      <h3>Class 12 (Appearing)</h3>
+      <span>Board: CBSE</span><br />
+      <span>Stream: Science</span><br />
+      <span>Year: 2026</span>
+    </div>
+    <div class="edu-card">
+      <h3>Class 10</h3>
+      <span>Board: CBSE</span><br />
+      <span>Percentage: 81.6%</span><br />
+      <span>Year: 2025</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="education">
+    <div class="edu-card">
+      <h3>Personal Portfolio Website</h3>
+      <span>Built using HTML & CSS</span><br />
+      <span>A responsive student portfolio hosted on GitHub Pages.</span>
+    </div>
+    <div class="edu-card">
+      <h3>Mini Web Project</h3>
+      <span>Basic JavaScript</span><br />
+      <span>Small project demonstrating logic and UI interaction.</span>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">Basic JavaScript</div>
+    <div class="skill">Computer Fundamentals</div>
+    <div class="skill">Communication</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ayush Pandey | Student Portfolio</p>
+</footer>
+
+</body>
+</html>
